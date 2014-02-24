@@ -18,6 +18,7 @@ run = require('run-serially')
 run(['apt-get install foo', 'apt-get install bar', 'just fail'], function (error, stdouts, stderrs) {
   if (error) {
     // => { message: 'Command not found: "just fail"' }
+    // Unlike run-paralelly, it'll stop at first error.
   }
 
   stdouts[0]

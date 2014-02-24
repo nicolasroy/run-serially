@@ -1,0 +1,26 @@
+{
+  "name": "run-serially",
+  "version": "0.0.0",
+  "description": "Run given commands as child processes serially",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "dependencies": {
+    "iter": "0.0.8"
+  },
+  "devDependencies": {
+    "prova": "*"
+  },
+  "keywords": [
+    "process",
+    "iteration",
+    "serial"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/run-serially.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
